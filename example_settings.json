@@ -1,0 +1,37 @@
+{
+  "fps": 3,
+  "pixelSizeUm": 0.1,
+  "thresholdMethod": "adaptive",
+  "maxLinkDistancePx": 8,
+  "maxGapFrames": 1,
+  "useKalman": true,
+  "minTrackDetections": 5,
+  "eventMADMultiplier": 3,
+  "eventMinConsecutiveFrames": 3,
+  "eventMinDeltaFOverF0": 0.2,
+  "bleachCorrection": true,
+  "useParallel": false,
+  "darkOffset": 100,
+  "bleachModel": "offset",
+  "eventBaselineFrames": 5,
+  "roiPolygons": [
+    [
+      [
+        10,
+        10
+      ],
+      [
+        100,
+        10
+      ],
+      [
+        100,
+        100
+      ],
+      [
+        10,
+        100
+      ]
+    ]
+  ]
+}

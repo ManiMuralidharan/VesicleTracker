@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use VesicleTracker, please cite it as below."
+title: "VesicleTracker: MATLAB detection, tracking and fluorescence-event analysis of vesicles in live-cell TIFF stacks"
+version: 1.0.0
+date-released: 2026-10-29
+license: MIT
+repository-code: "https://github.com/ManiMuralidharan/VesicleTracker"
+authors:
+  - family-names: Mani
+    given-names: Muralidharan
+    orcid: "https://orcid.org/0000-0002-1194-3616"
+    affiliation: "University of Wisconsin-Madison"
+keywords:
+  - vesicle tracking
+  - live-cell imaging
+  - exocytosis
+  - TIRF microscopy
+  - MATLAB

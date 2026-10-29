@@ -1,0 +1,27 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+slprj/
+*.autosave
+codegen/
+resources/project/
+
+# Outputs (results, validation, sessions)
+results/
+validation_results/
+*_results/
+*.mat
+*.truth.mat
+synthetic_ground_truth.tif
+
+# Microscopy data: do not commit raw stacks
+*.tif
+*.tiff
+*.ome.tif
+
+# Local only
+backup_*/
+legacy/
+.DS_Store
+Thumbs.db
